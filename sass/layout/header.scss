@@ -1,3 +1,11 @@
-h1{
-    font-size: 50px;
+header > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+}
+
+.logo{
+    width: 150px;
 }
