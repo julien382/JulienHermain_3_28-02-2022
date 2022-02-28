@@ -10,7 +10,7 @@ html {
 html{
     font-family: 'Shrikhand', cursive;
 }*/
-header {
+.header__div_1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +20,19 @@ header {
 
 .header__logo {
   width: 150px;
+}
+
+.header__div_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #e4e4e4;
+}
+
+.header__div_2__text {
+  padding-left: 10px;
 }
 
 footer {
