@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 15px;
 }
@@ -33,6 +34,28 @@ header {
 
 .main__location__text {
   padding-left: 10px;
+}
+
+.main__Réservez {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+.main__Fonctionnement {
+  display: flex;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.main__Restaurants {
+  display: flex;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #eeeeee;
 }
 
 footer {
