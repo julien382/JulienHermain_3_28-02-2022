@@ -177,6 +177,7 @@ header {
 
 .main__Restaurants__card__title {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .main__Restaurants__card__label {
