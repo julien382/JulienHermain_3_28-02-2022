@@ -123,9 +123,55 @@ header {
 /* --- Restaurants --- */
 .main__Restaurants {
   display: flex;
+  flex-direction: column;
   font-weight: bold;
-  padding: 10px;
+  padding: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #eeeeee;
+}
+
+.main__Restaurants__cards {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.main__Restaurants__card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.main__Restaurants__card__image {
+  display: flex;
+  height: 150px;
+}
+
+.main__Restaurants__card__image img {
+  display: flex;
+  width: 100%;
+}
+
+.main__Restaurants__card__text {
+  display: flex;
+  height: 50px;
+}
+
+.main__Restaurants__card__label {
+  padding: 8px;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #99E2D0;
+  color: #008060;
+  margin-left: 200px;
+  margin-top: 15px;
 }
 
 footer {
@@ -160,5 +206,11 @@ span {
   width: 15px;
   /*font-size: 10px;*/
 }
+
+/* --- Restaurants --- */
+/*
+$purple-color: #9356DC;
+$pink-color: #FF79DA;
+$blue-color: #99E2D0;*/
 
 /*# sourceMappingURL=style.css.map */
