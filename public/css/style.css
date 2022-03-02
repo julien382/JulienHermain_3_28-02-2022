@@ -65,7 +65,7 @@ header {
 }
 
 .button_explorer {
-  background: linear-gradient(90deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+  background: linear-gradient(170deg, #ff79da, #f071da, #e06adb, #cf64dc, #bd5fdc, #a95adc, #9356dc);
   color: white;
   border: none;
   border-radius: 50px;
