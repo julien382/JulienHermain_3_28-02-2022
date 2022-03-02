@@ -42,7 +42,7 @@
 }
 
 .button_explorer{
-    background-color: #9356DC;
+    background: linear-gradient(90deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
     color: white;
     border: none;
     border-radius: 50px;
@@ -86,7 +86,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #9356DC;
+    background-color: $purple-color;
     position: absolute;
     width: 25px;
     height: 25px;
@@ -134,13 +134,10 @@
 }
 
 .main__Restaurants__card__image{
-    display: flex;
     height: 150px;
 }
 
 .main__Restaurants__card__image img{
-    display: flex;
-    min-height: 100%;
     width: 100%;
 }
 
@@ -149,6 +146,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    background-color: white;
 }
 
 .main__Restaurants__card__text{

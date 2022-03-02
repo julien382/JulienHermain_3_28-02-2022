@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "sass": "sass --watch ./sass/globale.scss:./public/css/style.css",
     "prefixer": "postcss ./public/css/style.css --use autoprefixer --output ./public/css/prefixed/style.css --watch --verbose",
     "dev": "concurrently \"npm run sass\" \"npm run prefixer\""
   },

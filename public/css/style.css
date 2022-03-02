@@ -1,8 +1,5 @@
 @charset "UTF-8";
-html {
-  font-size: 15px;
-}
-
+/* --- Restaurants --- */
 html {
   font-family: "Roboto", sans-serif;
 }
@@ -11,6 +8,10 @@ html {
 html{
     font-family: 'Shrikhand', cursive;
 }*/
+html {
+  font-size: 15px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -64,7 +65,7 @@ header {
 }
 
 .button_explorer {
-  background-color: #9356DC;
+  background: linear-gradient(90deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
   color: white;
   border: none;
   border-radius: 50px;
@@ -153,13 +154,10 @@ header {
 }
 
 .main__Restaurants__card__image {
-  display: flex;
   height: 150px;
 }
 
 .main__Restaurants__card__image img {
-  display: flex;
-  min-height: 100%;
   width: 100%;
 }
 
@@ -168,6 +166,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  background-color: white;
 }
 
 .main__Restaurants__card__text {
@@ -226,11 +225,5 @@ span {
   width: 15px;
   /*font-size: 10px;*/
 }
-
-/* --- Restaurants --- */
-/*
-$purple-color: #9356DC;
-$pink-color: #FF79DA;
-$blue-color: #99E2D0;*/
 
 /*# sourceMappingURL=style.css.map */
