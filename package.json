@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "prefixer": "postcss ./public/css/style.css --use autoprefixer --output ./public/css/prefixed/style.css --watch"
+    "prefixer": "postcss ./public/css/style.css --use autoprefixer --output ./public/css/prefixed/style.css --watch --verbose",
+    "dev": "concurrently \"npm run sass\" \"npm run prefixer\""
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,6 @@
     "concurrently": "^7.0.0",
     "postcss": "^8.4.7",
     "postcss-cli": "^9.1.0"
-  }
+  },
+  "browserslist": "last 50 version"
 }
