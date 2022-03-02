@@ -25,6 +25,11 @@ header {
 }
 
 /* --- All --- */
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .main__title {
   font-weight: bold;
   font-size: 18px;
