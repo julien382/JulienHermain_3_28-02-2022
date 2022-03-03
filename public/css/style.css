@@ -277,6 +277,8 @@ main {
 /* --- main image --- */
 .resto_main_image {
   width: 100%;
+  max-height: 300px;
+  overflow: hidden;
 }
 
 .resto_main_image img {
