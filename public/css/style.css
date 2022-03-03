@@ -315,6 +315,11 @@ main {
   font-size: 25px;
 }
 
+/* --- main type plat cards --- */
+.resto_type_menu_cards {
+  margin-bottom: 40px;
+}
+
 /* --- main type plat title --- */
 .resto_main_type_plat_title {
   padding: 10px;
@@ -356,7 +361,6 @@ main {
 .resto_main_div_button {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
   margin-bottom: 35px;
 }
 
