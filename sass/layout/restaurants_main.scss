@@ -53,6 +53,14 @@
 .resto_main_type_plat_title{
     padding: 10px;
     padding-left: 0;
+    padding-bottom: 5px;
+}
+
+.resto_barre{
+    width: 40px;
+    height: 2px;
+    background-color: $green-color;
+    margin-bottom: 15px;
 }
 
   /* --- main card plat --- */
@@ -66,7 +74,7 @@
     border-radius: 15px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 12px;
 }
 /*
 .resto_main_card_plat__text{
