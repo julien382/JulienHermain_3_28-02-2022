@@ -389,7 +389,6 @@ main {
     animation: heart 1s;
 }*/
 .div_check {
-  display: none;
   width: 20%;
   height: 100%;
   background-color: aqua;

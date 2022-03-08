@@ -122,7 +122,6 @@ main{
 }*/
 
 .div_check{
-    display: none;
     width: 20%;
     height: 100%;
     background-color: aqua;
@@ -138,7 +137,6 @@ main{
         transform-origin: right;
         transition: 1s;
         transform: scaleX(1);
-        
     }
 }
 
