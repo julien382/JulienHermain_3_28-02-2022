@@ -2,7 +2,7 @@
 /* --- Restaurants --- */
 @keyframes slidedown {
   from {
-    transform: translateY(-100px);
+    transform: translateY(20px);
     opacity: 0;
   }
   to {
