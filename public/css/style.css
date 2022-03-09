@@ -127,6 +127,12 @@ main {
   border-radius: 20px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
+.main__Fonctionnement__card:hover {
+  background-color: #9256dc21;
+}
+.main__Fonctionnement__card:hover .fa_fonctionnement {
+  color: #9356DC;
+}
 
 .main__Fonctionnement__card__numero {
   display: flex;
