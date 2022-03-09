@@ -473,6 +473,9 @@ main {
 }*/
 /* --- div-checkbox --- */
 .div_check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #99E2D0;
   color: white;
   height: 100%;
@@ -485,6 +488,10 @@ main {
 
 input:checked + label .resto_main_card_plat .div_check {
   right: 0;
+}
+
+.fa-circle-check {
+  font-size: 20px;
 }
 
 footer {
