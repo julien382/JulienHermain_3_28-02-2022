@@ -93,13 +93,18 @@ main{
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 10px;
     padding: 12px;
-    animation: slidedown 1s;
+    transform: translateY(20px);
+    opacity: 0;
 }
-/*                                BOUCLE
-@for $i from 0 to 10{
-    .resto_main_card_plat_#{$1}{
+
+@for $i from 1 to 10{
+    .resto_main_card_plat_#{$i} {
         animation-name: slidedown;
-    }*/
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay: #{$i * 0.2s};
+    }
+}
 
 /*
 .resto_main_card_plat__text{
