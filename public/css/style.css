@@ -9,6 +9,9 @@
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   width: 180px;
 }
+.button:hover {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
+}
 
 @keyframes slidedown {
   to {
@@ -129,6 +132,7 @@ main {
 }
 .main__Fonctionnement__card:hover {
   background-color: #9256dc21;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
 }
 .main__Fonctionnement__card:hover .fa_fonctionnement {
   color: #9356DC;
@@ -183,6 +187,9 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
+}
+.main__Restaurants__card:hover {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
 }
 
 .main__Restaurants__card__image {
@@ -372,6 +379,9 @@ main {
   overflow: hidden;
   transform: translateY(20px);
   opacity: 0;
+}
+.resto_main_card_plat:hover {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
 /* --- main card plat animation/delay--- */
