@@ -368,6 +368,7 @@ main {
   opacity: 0;
 }
 
+/* --- main card plat animation/delay--- */
 .resto_main_card_plat_1 {
   animation-name: slidedown;
   animation-duration: 1s;
@@ -450,27 +451,6 @@ main {
   margin-bottom: 35px;
 }
 
-/*
-*/
-/*
-.div_check{
-    width: 20%;
-    height: 100%;
-    background-color: aqua;
-    color: white;
-    transform: scaleX(0);
-}
-
-
-.resto_main_card_plat:hover{
-
-    .div_check{
-        display: block;
-        transform-origin: right;
-        transition: 1s;
-        transform: scaleX(1);
-    }
-}*/
 /* --- div-checkbox --- */
 .div_check {
   display: flex;

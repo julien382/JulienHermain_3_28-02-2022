@@ -99,6 +99,8 @@ main{
     opacity: 0;
 }
 
+  /* --- main card plat animation/delay--- */
+
 @for $i from 1 to 10{
     .resto_main_card_plat_#{$i} {
         animation-name: slidedown;
@@ -128,27 +130,6 @@ main{
     justify-content: center;
     margin-bottom: 35px;
 }
-/*
-*/
-/*
-.div_check{
-    width: 20%;
-    height: 100%;
-    background-color: aqua;
-    color: white;
-    transform: scaleX(0);
-}
-
-
-.resto_main_card_plat:hover{
-    
-    .div_check{
-        display: block;
-        transform-origin: right;
-        transition: 1s;
-        transform: scaleX(1);
-    }
-}*/
 
 /* --- div-checkbox --- */
 
