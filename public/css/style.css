@@ -44,6 +44,11 @@ html {
   width: 150px;
 }
 
+header {
+  z-index: 10;
+  position: relative;
+}
+
 /* --- All --- */
 main {
   max-width: 1000px;
@@ -212,7 +217,7 @@ main {
   border-radius: 5px;
   background-color: #99E2D0;
   color: #008060;
-  left: 200px;
+  right: 20px;
   top: 15px;
 }
 
