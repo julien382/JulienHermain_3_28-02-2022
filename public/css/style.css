@@ -444,12 +444,12 @@ main {
 }
 
 /* --- main div button --- */
-/*
- .resto_main_div_button{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 35px;
-}*/
+.resto_main_div_button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
 /*
 */
 /*
