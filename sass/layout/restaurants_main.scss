@@ -166,10 +166,17 @@ main{
     transition: 0.3s;
 }
 
-input:checked + label .resto_main_card_plat .div_check {
+input:checked + .label_check .div_check {
     right: 0;
 }
 
+/* --- div-checkbox_i_rotate --- */
 .fa-circle-check{
     font-size: 20px;
+    
+}
+
+input:checked + .label_check .fa-circle-check {
+    transition: 0.5s;
+    transform: rotate(360deg);
 }
