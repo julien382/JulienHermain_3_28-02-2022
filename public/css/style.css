@@ -470,6 +470,7 @@ main {
 }
 
 .resto_main_card_plat__price {
+  margin-left: 8px;
   transition: 0.3s;
 }
 
