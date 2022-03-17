@@ -157,6 +157,13 @@ input:checked + .label_check .div_check {
     right: 0;
 }
 
+input:checked + .label_check {
+    .resto_main_card_plat__price{
+        margin-right: 50px;
+        transition: 0.3s;
+    }    
+}
+
 /* --- div-checkbox_i_rotate --- */
 .fa-circle-check{
     font-size: 20px;
