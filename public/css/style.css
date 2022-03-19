@@ -246,6 +246,10 @@ main {
   font-size: 20px;
 }
 
+.fa-in {
+  color: red;
+}
+
 footer {
   display: flex;
   flex-direction: column;
