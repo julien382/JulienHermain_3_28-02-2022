@@ -1,12 +1,12 @@
 .spinner_container{
-    position: none;
+    position: none; //fixed
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: white;
     z-index: 1000;
-    display: none;
+    display: none; //flex
     flex-direction: column;
     justify-content: center;
     align-items: center;
