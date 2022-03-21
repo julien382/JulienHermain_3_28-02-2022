@@ -59,6 +59,28 @@
   border-bottom-color: #9356DC;
 }
 
+.fa-heart {
+  font-size: 20px;
+  position: relative;
+}
+
+.fa-color {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: red;
+  animation-name: slidedown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+}
+
+/* --- div-checkbox --- */
+input:checked + .label_check .fa-color {
+  transition: 2s;
+  display: none;
+}
+
 @keyframes slidedown {
   to {
     transform: translateY(0px);
@@ -290,14 +312,6 @@ main {
   color: #008060;
   right: 20px;
   top: 15px;
-}
-
-.fa-heart {
-  font-size: 20px;
-}
-
-.fa-in {
-  color: red;
 }
 
 footer {
