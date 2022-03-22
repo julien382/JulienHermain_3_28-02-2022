@@ -8,15 +8,12 @@
     left: 0;
     top: 0;
     color: red;
-    animation-name: slidedown;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-delay: 0.2s;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 /* --- div-checkbox --- */
 
 input:checked + .label_check .fa-color{
-    transition: 2s;
-    display: none;
+    opacity: 1;
 }

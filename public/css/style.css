@@ -69,32 +69,19 @@
   left: 0;
   top: 0;
   color: red;
-  animation-name: slidedown;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 0.2s;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 /* --- div-checkbox --- */
 input:checked + .label_check .fa-color {
-  transition: 2s;
-  display: none;
+  opacity: 1;
 }
 
 @keyframes slidedown {
   to {
     transform: translateY(0px);
     opacity: 1;
-  }
-}
-@keyframes heart {
-  from {
-    transform-origin: 0% 50%;
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-    background-color: red;
   }
 }
 @keyframes loading {
