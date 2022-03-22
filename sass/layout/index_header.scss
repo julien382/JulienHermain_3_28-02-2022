@@ -9,6 +9,10 @@
 }
 
 .header__logo{
-    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
 }
 
