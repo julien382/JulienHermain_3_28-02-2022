@@ -25,18 +25,19 @@
 }
 
 .spinner_container {
-  position: none;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: white;
   z-index: 1000;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: spinner-cont 3s ease;
+  animation: disappear 0s 2s ease forwards;
+  opacity: 0.9;
 }
 .spinner_container .spinner {
   width: 50px;
@@ -92,10 +93,12 @@ input:checked + .label_check .fa-color {
     transform: rotate(360deg);
   }
 }
-@keyframes spinner-cont {
+@keyframes disappear {
+  from {
+    transform: scale(1);
+  }
   to {
-    position: relative;
-    display: flex;
+    transform: scale(0);
   }
 }
 html {

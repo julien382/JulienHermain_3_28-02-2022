@@ -1,16 +1,17 @@
 .spinner_container{
-    position: none; //fixed
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: white;
     z-index: 1000;
-    display: none; //flex
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: spinner-cont 3s ease;
+    animation: disappear 0s 2s ease forwards;
+    opacity: 0.9;
 
     .spinner{
         width: 50px;

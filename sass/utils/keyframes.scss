@@ -14,9 +14,11 @@
     }
 }
 
-@keyframes spinner-cont{
+@keyframes disappear{
+    from{
+        transform: scale(1);
+    }
     to{
-        position: relative;
-        display: flex;
+        transform: scale(0); 
     }
 }
