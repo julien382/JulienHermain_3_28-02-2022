@@ -71,7 +71,7 @@
   top: 0;
   opacity: 0;
   transition: all 0.3s ease-in-out;
-  background: linear-gradient(blue, red);
+  background: linear-gradient(170deg, #ff79da, #f071da, #e06adb, #cf64dc, #bd5fdc, #a95adc, #9356dc);
   -webkit-background-clip: text;
   color: transparent;
 }
