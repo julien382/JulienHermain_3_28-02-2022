@@ -84,7 +84,8 @@ input:checked + .label_check .fa-color {
 
 .heart_container {
   position: absolute;
-  right: 0;
+  right: 20px;
+  bottom: 20px;
 }
 
 @keyframes slidedown {
@@ -265,9 +266,9 @@ main {
   padding-bottom: 15px;
 }
 
-.card_marge {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.emplacement_card {
+  position: relative;
+  margin: 10px;
 }
 
 .main__Restaurants__card {
