@@ -117,8 +117,13 @@ main{
 
 .resto_main_card_plat__text{
     overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+
+    p,span{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
 }
 
 .resto_main_card_plat__price{

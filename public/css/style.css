@@ -537,7 +537,10 @@ main {
 
 .resto_main_card_plat__text {
   overflow: hidden;
+}
+.resto_main_card_plat__text p, .resto_main_card_plat__text span {
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
