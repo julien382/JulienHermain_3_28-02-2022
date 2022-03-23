@@ -82,6 +82,11 @@ input:checked + .label_check .fa-color {
   opacity: 1;
 }
 
+.heart_container {
+  position: absolute;
+  right: 0;
+}
+
 @keyframes slidedown {
   to {
     transform: translateY(0px);
