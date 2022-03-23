@@ -46,6 +46,7 @@
   border-radius: 50px;
   border: 5px solid #99E2D0;
   animation: loading 1.3s ease infinite;
+  animation-iteration-count: esase 5;
 }
 .spinner_container .spinner:after {
   position: absolute;
@@ -321,31 +322,34 @@ footer {
   background-color: #303030;
   color: white;
 }
-
-.footer__logo {
+footer .footer__logo {
   font-size: 19px;
   padding: 15px;
   padding-left: 0;
   color: white;
   font-family: "Shrikhand", cursive;
 }
-
-.footer__text {
+footer .footer__text {
   display: flex;
   font-weight: bold;
   padding: 5px;
   padding-left: 0;
   color: white;
 }
-
-span {
+footer span {
   display: block;
 }
-
-.fa_footer {
+footer .fa_footer {
   padding-right: 10px;
   width: 15px;
   /*font-size: 10px;*/
+}
+footer .footers {
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  width: fit-content;
 }
 
 .resto_header {
@@ -600,31 +604,34 @@ footer {
   background-color: #303030;
   color: white;
 }
-
-.footer__logo {
+footer .footer__logo {
   font-size: 19px;
   padding: 15px;
   padding-left: 0;
   color: white;
   font-family: "Shrikhand", cursive;
 }
-
-.footer__text {
+footer .footer__text {
   display: flex;
   font-weight: bold;
   padding: 5px;
   padding-left: 0;
   color: white;
 }
-
-span {
+footer span {
   display: block;
 }
-
-.fa_footer {
+footer .fa_footer {
   padding-right: 10px;
   width: 15px;
   /*font-size: 10px;*/
+}
+footer .footers {
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  width: fit-content;
 }
 
 /*# sourceMappingURL=style.css.map */

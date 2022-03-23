@@ -4,30 +4,41 @@ footer{
     padding: 15px;
     background-color: rgb(48, 48, 48);
     color: white;
-}
 
-.footer__logo{
+    .footer__logo{
     font-size: 19px;
     padding: 15px;
     padding-left: 0;
     color: white;
     font-family: 'Shrikhand', cursive;
+    }
+
+    .footer__text{
+        display: flex;
+        font-weight: bold;
+        padding: 5px;
+        padding-left: 0;
+        color: white;
+    }
+
+    span{
+        display: block;
+    }
+
+    .fa_footer{
+        padding-right: 10px;
+        width: 15px;
+        /*font-size: 10px;*/
+    }
+
+    .footers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    a{
+        width: fit-content;
+    }
 }
 
-.footer__text{
-    display: flex;
-    font-weight: bold;
-    padding: 5px;
-    padding-left: 0;
-    color: white;
-}
 
-span{
-    display: block;
-}
-
-.fa_footer{
-    padding-right: 10px;
-    width: 15px;
-    /*font-size: 10px;*/
-}
