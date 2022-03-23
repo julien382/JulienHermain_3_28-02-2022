@@ -122,7 +122,10 @@ main{
 
 .main__Restaurants__cards{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -135,11 +138,13 @@ main{
 .main__Restaurants__card{
     display: flex;
     flex-direction: column;
+    
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     overflow: hidden;
     width: 100%;
+    max-width: 350px;
 
     &:hover{
         box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
@@ -180,25 +185,4 @@ main{
     color: $green-color;
     right: 20px;
     top: 15px;
-}
-
-@media only screen and (min-width: 768px)
-{
-    .main__Restaurants__cards{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .main__Restaurants__card{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-        overflow: hidden;
-        width: 300px;
-    }
 }

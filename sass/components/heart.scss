@@ -7,9 +7,12 @@
     position: absolute;
     left: 0;
     top: 0;
-    color: red;
     opacity: 0;
     transition: all 0.3s ease-in-out;
+    background: linear-gradient(blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
 
 /* --- div-checkbox --- */
