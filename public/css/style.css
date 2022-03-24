@@ -321,6 +321,23 @@ main {
   top: 15px;
 }
 
+@media only screen and (min-width: 767px) {
+  .main__Reservez {
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+  }
+
+  .main__Restaurants {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
