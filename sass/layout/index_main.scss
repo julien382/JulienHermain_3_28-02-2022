@@ -186,24 +186,3 @@ main{
     right: 20px;
     top: 15px;
 }
-
-///////media
-
-@media only screen and (min-width: 767px)
-{
-    .main__Reservez{
-        border-bottom-left-radius: 30%;
-        border-bottom-right-radius: 30%;
-    }
-
-    .main__Restaurants{
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        background-color: rgb(238, 238, 238);
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-    }
-}
