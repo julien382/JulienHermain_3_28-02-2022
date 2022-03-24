@@ -24,8 +24,8 @@
 }
 @media only screen and (min-width: 767px) {
   .main__Reservez {
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
 
   .main__Restaurants {
