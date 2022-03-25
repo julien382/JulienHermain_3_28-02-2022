@@ -66,49 +66,6 @@ main{
     padding-bottom: 15px;
 }
 
-.main__Fonctionnement__card{
-    display: flex;
-    padding: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 75%;
-    background-color: $grey;
-    border-radius: 20px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-
-    &:hover{
-        background-color: $opacity-purple-color;
-        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
-        .fa_fonctionnement{
-            color: $purple-color;
-        }
-    }
-}
-
-.main__Fonctionnement__card__numero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: $purple-color;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 25px;
-    margin-left: -37px;
-    margin-top: -3px;
-}
-
-.fa_fonctionnement{
-    display: block;
-    color: grey;
-    width: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-
  /* --- Restaurants --- */
 
 .main__Restaurants{
@@ -128,61 +85,4 @@ main{
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.emplacement_card{
-    position: relative;
-    margin: 10px;
-}
-
-.main__Restaurants__card{
-    display: flex;
-    flex-direction: column;
-    
-    position: relative;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    overflow: hidden;
-    width: 100%;
-    max-width: 350px;
-
-    &:hover{
-        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
-    }
-}
-
-.main__Restaurants__card__image{
-    height: 150px;
-}
-
-.main__Restaurants__card__image img{
-    width: 100%;
-}
-
-.main__Restaurants__card__part_text{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background-color: white;
-}
-
-.main__Restaurants__card__text{
-    display: flex;
-    flex-direction: column;
-}
-
-.main__Restaurants__card__title{
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.main__Restaurants__card__label{
-    padding: 8px;
-    position: absolute;
-    border-radius: 5px;
-    background-color: $blue-color;
-    color: $green-color;
-    right: 20px;
-    top: 15px;
 }

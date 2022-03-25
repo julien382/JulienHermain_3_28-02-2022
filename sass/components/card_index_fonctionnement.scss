@@ -1,0 +1,44 @@
+.main__Fonctionnement__card{
+    display: flex;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    background-color: $grey;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    &:hover{
+        background-color: $opacity-purple-color;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.4);
+        .fa_fonctionnement{
+            color: $purple-color;
+        }
+    }
+
+    .main__Fonctionnement__card__numero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: $purple-color;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        margin-left: -37px;
+        margin-top: -3px;
+    }
+
+    .fa_fonctionnement{
+    display: block;
+    color: grey;
+    width: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+}
+
+
+
