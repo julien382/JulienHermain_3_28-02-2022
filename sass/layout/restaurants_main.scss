@@ -23,7 +23,7 @@ main{
 }
 
  /* --- main div radius --- */
- .resto_div_radius{
+.resto_div_radius{
     height: 100px;
     width: 100%;
     background-color: $grey;
@@ -52,36 +52,39 @@ main{
     padding: 15px;
     padding-top: 0;
     background-color: $grey;
-}
- /* --- main resto title --- */
 
-.resto_main_title{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 0px;
-    padding-bottom: 25px;
-    padding-right: 15px;
-    font-size: 25px;
+     /* --- main resto title --- */
+
+    .resto_main_title{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        padding-right: 15px;
+        font-size: 25px;
+    }
 }
 
  /* --- main type plat cards --- */
 .resto_type_menu_cards{
     margin-bottom: 40px;
-}
- /* --- main type plat title --- */
 
-.resto_main_type_plat_title{
-    padding: 10px;
-    padding-left: 0;
-    padding-bottom: 5px;
+    /* --- main type plat title --- */
+
+    .resto_main_type_plat_title{
+        padding: 10px;
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    .resto_barre{
+        width: 40px;
+        height: 2px;
+        background-color: $blue-color;
+        margin-bottom: 15px;
+    }
 }
 
-.resto_barre{
-    width: 40px;
-    height: 2px;
-    background-color: $blue-color;
-    margin-bottom: 15px;
-}
 
  /* --- main card plat animation/delay--- */
 

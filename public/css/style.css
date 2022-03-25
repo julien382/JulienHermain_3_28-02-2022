@@ -312,8 +312,7 @@ main {
   padding: 10px;
   background-color: #e4e4e4;
 }
-
-.main__location__text {
+.main__location .main__location__text {
   padding-left: 10px;
 }
 
@@ -326,8 +325,7 @@ main {
   padding: 30px;
   background-color: whitesmoke;
 }
-
-.main__Réservez__text {
+.main__Reservez .main__Réservez__text {
   font-size: 15px;
   padding: 10px;
   padding-bottom: 20px;
@@ -342,8 +340,7 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-.main__Fonctionnement__cards {
+.main__Fonctionnement .main__Fonctionnement__cards {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -361,8 +358,7 @@ main {
   padding-bottom: 30px;
   background-color: whitesmoke;
 }
-
-.main__Restaurants__cards {
+.main__Restaurants .main__Restaurants__cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -482,10 +478,9 @@ main {
   padding: 15px;
   padding-top: 0;
   background-color: whitesmoke;
+  /* --- main resto title --- */
 }
-
-/* --- main resto title --- */
-.resto_main_title {
+.resto_main_text .resto_main_title {
   display: flex;
   justify-content: space-between;
   padding-top: 0px;
@@ -497,16 +492,14 @@ main {
 /* --- main type plat cards --- */
 .resto_type_menu_cards {
   margin-bottom: 40px;
+  /* --- main type plat title --- */
 }
-
-/* --- main type plat title --- */
-.resto_main_type_plat_title {
+.resto_type_menu_cards .resto_main_type_plat_title {
   padding: 10px;
   padding-left: 0;
   padding-bottom: 5px;
 }
-
-.resto_barre {
+.resto_type_menu_cards .resto_barre {
   width: 40px;
   height: 2px;
   background-color: #99E2D0;
