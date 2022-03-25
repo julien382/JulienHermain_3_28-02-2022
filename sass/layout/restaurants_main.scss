@@ -26,7 +26,7 @@ main{
  .resto_div_radius{
     height: 100px;
     width: 100%;
-    background-color: rgb(238, 238, 238);
+    background-color: $grey;
     position: absolute;
     top: 165px;
     border-top-left-radius: 40px;
@@ -51,7 +51,7 @@ main{
 .resto_main_text{
     padding: 15px;
     padding-top: 0;
-    background-color: rgb(238, 238, 238);
+    background-color: $grey;
 }
  /* --- main resto title --- */
 
