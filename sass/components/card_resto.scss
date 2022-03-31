@@ -19,6 +19,8 @@
     
     .resto_main_card_plat__text{
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
     
         p{
             white-space: nowrap;

@@ -243,6 +243,8 @@ input:checked + .label_check .fa-color {
 }
 .resto_main_card_plat .resto_main_card_plat__text {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .resto_main_card_plat .resto_main_card_plat__text p {
   white-space: nowrap;
