@@ -92,8 +92,7 @@
   position: relative;
   border-radius: 50px;
   border: 5px solid #99E2D0;
-  animation: loading 1.3s ease infinite;
-  animation-iteration-count: ease 5;
+  animation: loading 1.3s ease 5;
 }
 .spinner_container .spinner:after {
   position: absolute;
