@@ -22,17 +22,6 @@ main{
     font-family: 'Shrikhand', cursive;
 }
 
- /* --- main div radius --- */
-.resto_div_radius{
-    height: 100px;
-    width: 100%;
-    background-color: $grey;
-    position: absolute;
-    top: 165px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-}
-
  /* --- main image --- */
 
 .resto_main_image{
@@ -44,6 +33,17 @@ main{
 
 .resto_main_image img{
     width: 100%;
+}
+
+ /* --- main div radius --- */
+.resto_div_radius{
+    height: 100px;
+    width: 100%;
+    background-color: $grey;
+    position: absolute;
+    top: 165px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
  /* --- main text --- */
