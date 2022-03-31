@@ -12,6 +12,11 @@
         border-top-right-radius: 30px;
     }
 
+    .resto_main_image img{
+        width: 100%;
+        transform: translate(-0%, -25%);
+    }
+
     footer{
         display: flex;
         flex-direction: column;

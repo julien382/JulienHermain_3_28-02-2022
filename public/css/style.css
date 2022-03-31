@@ -35,6 +35,11 @@
     border-top-right-radius: 30px;
   }
 
+  .resto_main_image img {
+    width: 100%;
+    transform: translate(0%, -25%);
+  }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -464,12 +469,6 @@ main {
   width: 100%;
 }
 
-@media only screen and (min-width: 767px) {
-  .resto_main_image img {
-    width: 100%;
-    transform: translate(0%, -25%);
-  }
-}
 /* --- main div radius --- */
 .resto_div_radius {
   height: 50px;
