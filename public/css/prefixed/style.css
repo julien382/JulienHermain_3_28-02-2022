@@ -407,7 +407,7 @@ input:checked + .label_check .fa-color {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.resto_main_card_plat .resto_main_card_plat__text p {
+.resto_main_card_plat .resto_main_card_plat__text span {
   white-space: nowrap;
   overflow: hidden;
   -o-text-overflow: ellipsis;
