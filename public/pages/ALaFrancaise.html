@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Oh My Food</title>
+        <meta name="description" content="Site de commande de repas en ligne" />
+        <!-- Link css -->
+        <link rel="stylesheet" href="../../public/css/reset/reset.css" />
+        <link rel="stylesheet" href="../../public/css/style.css" />
+        <!-- Shrikhand -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <!-- Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/a1f8d8f6ea.js" crossorigin="anonymous"></script>
+
+    </head> 
+    
+    <body id="top">
+        
+        <!-- header -->
+        <header class="resto_header">
+            <a href="../../index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="../../index.html"><span class="resto_header__logo">ohmyfood</span></a>
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- image -->
+            <div class="resto_main_image">
+                <div class="resto_div_radius"></div>
+                <img src="../../public/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="La palette du goût" />
+            </div>
+            <!-- formulaire -->
+            <form class="resto_main_text" action="./" method="post">
+                <div class="resto_main_title">
+                    <p class="font_Shrikhand">À la française</p>
+                    <!-- heart -->
+                    <input type="checkbox" name="heart" id="check_heart" >
+                    <label class="label_check" for="check_heart">
+                        <i class="body__heart fa-regular fa-heart">
+                            <i class="fa-color fa-solid fa-heart"></i>
+                        </i>
+                    </label>
+
+                </div>
+                <!-- ENTRÉES -->
+                <div class="resto_type_menu_cards">
+                    <p class="resto_main_type_plat_title">ENTRÉES</p>
+                    <div class="resto_barre"></div>
+                    <!-- card -->
+                    <input type="checkbox" name="entrée1" id="check_1">
+                    <label class="label_check" for="check_1">
+                        <span class="resto_main_card_plat resto_main_card_plat_1">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Tartare de poulpe acidulé</span>
+                                <span>Aux zestes d'orange</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">25€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+
+                    <input type="checkbox" name="entrée2" id="check_2">
+                    <label class="label_check" for="check_2">
+                        <span class="resto_main_card_plat resto_main_card_plat_2">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Velouté de légumes d'antan</span>
+                                <span>Carotte, panais, topinambour</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">35€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+
+                    <input type="checkbox" name="entrée3" id="check_3">
+                    <label class="label_check" for="check_3">
+                        <span class="resto_main_card_plat resto_main_card_plat_3">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Soupe à l'oignon</span>
+                                <span>Revisitée</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">20€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+                </div>
+                <!-- PLATS -->
+                <div class="resto_type_menu_cards">
+                    <p class="resto_main_type_plat_title">PLATS</p>
+                    <div class="resto_barre"></div>
+
+                    <input type="checkbox" name="plat1" id="check_4">
+                    <label class="label_check" for="check_4">
+                        <span class="resto_main_card_plat resto_main_card_plat_4">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Coquilles Saint-Jacques</span>
+                                <span>Accompagnées d'une purée de panais</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">40€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+
+                    <input type="checkbox" name="plat2" id="check_5">
+                    <label class="label_check" for="check_5">
+                        <span class="resto_main_card_plat resto_main_card_plat_5">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Magret de canard</span>
+                                <span>Et parmentier de pommes de terre</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">35€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+
+                    <input type="checkbox" name="plat3" id="check_6">
+                    <label class="label_check" for="check_6">
+                        <span class="resto_main_card_plat resto_main_card_plat_6">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Pigeonneau d’Ille-et-Vilaine</span>
+                                <span>Sur son lit de gnocchis aux légumes</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">44€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+                </div>
+                <!-- DESSERTS -->
+                <div class="resto_type_menu_cards">
+                    <p class="resto_main_type_plat_title">DESSERTS</p>
+                    <div class="resto_barre"></div>
+
+                    <input type="checkbox" name="dessert1" id="check_7">
+                    <label class="label_check" for="check_7">
+                        <span class="resto_main_card_plat resto_main_card_plat_7">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Pétales de violettes glacés</span>
+                                <span>Et purée de noisettes</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">18€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+
+                    <input type="checkbox" name="dessert2" id="check_8">
+                    <label class="label_check" for="check_8">
+                        <span class="resto_main_card_plat resto_main_card_plat_8">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Fondant au chocolat</span>
+                                <span>Et glace à la vanille de Madagascar</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">22€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+
+                    <input type="checkbox" name="dessert3" id="check_9">
+                    <label class="label_check" for="check_9">
+                        <span class="resto_main_card_plat resto_main_card_plat_9">
+                            <span class="resto_main_card_plat__text">
+                                <span class="resto_plat_title main__bold">Millefeuille croustillant</span>
+                                <span>Myrtilles et pâte d’amande</span>
+                            </span>
+                            <span class="resto_main_card_plat__price">
+                                <span class="main__bold">23€</span>
+                            </span>
+                            <span class="div_check">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                        </span>
+                    </label>
+                </div>
+
+                <div class="resto_main_div_button">
+                    <button type="submit" class="button">Commander</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <a href="#top"><span class="footer__logo">ohmyfood</span></a>
+            <div class="footers">
+                <a href="#"><div class="footer__text">
+                    <i class="fa_footer fa-solid fa-utensils"></i>
+                    <span>Proposer un restaurent</span>
+                </div></a>
+                <a href="#"><div class="footer__text">
+                    <i class="fa_footer fa-solid fa-handshake-angle"></i>
+                    <span>Dévenir partenaire</span>
+                </div></a>
+                <a href="#"><div class="footer__text">
+                    <span>Mentions légales</span>
+                </div></a>
+                <a href="mailto:ohmyfood@gmail.com"><div class="footer__text">
+                    <span>Contact</span>
+                </div></a>
+            </div>
+        </footer>
+
+    </body>
+</html>

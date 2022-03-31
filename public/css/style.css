@@ -570,6 +570,13 @@ main {
   animation-delay: 1.8s;
 }
 
+.resto_main_card_plat_10 {
+  animation-name: slidedown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
 /* --- main div button --- */
 .resto_main_div_button {
   display: flex;

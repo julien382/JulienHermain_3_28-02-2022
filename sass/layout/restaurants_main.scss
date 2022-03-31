@@ -88,7 +88,7 @@ main{
 
  /* --- main card plat animation/delay--- */
 
-@for $i from 1 to 10{
+@for $i from 1 to 11{
 .resto_main_card_plat_#{$i} {
     animation-name: slidedown;
     animation-duration: 1s;
